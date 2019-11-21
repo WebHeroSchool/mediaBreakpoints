@@ -15,7 +15,6 @@
 }
 .nav__link {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.2em;
     text-decoration: none;
     text-transform: capitalize;
     color: #313335;
@@ -40,18 +39,29 @@
 }
 
 @media (min-width: 480px) and (max-width: 959px) {
+    .nav__link {
+        font-size: .9em;
+    }
+
     .nav__link--burger {
         display: none;
     }
 }
 
 @media (min-width: 960px) and (max-width: 1199px) {
+    .nav__link {
+        font-size: 1em;
+    }
+
     .nav__link--burger {
         display: none;
     }
 }
 
 @media (min-width: 1200px) {
+    .nav__link {
+        font-size: 1.1em;
+    }
     .nav__link--burger {
         display: none;
     }
