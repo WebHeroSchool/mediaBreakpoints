@@ -1,3 +1,3 @@
 # mediaBreakpoints
 
-## 1. font-size change
+## 1. Display burger menu for mobiles 
